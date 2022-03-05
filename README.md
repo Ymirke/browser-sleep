@@ -1,4 +1,5 @@
-# Simple sleep browser sleep timer
+# Simple sleep timer for browsers
+Lets say you're listening to a podcast in your browser, but want to pause it after some amount of time. That is what this browser extension does.
 
 ## Inspired by this feature on spotify:
 ![image of spotify feature](https://github.com/Ymirke/browser-sleep/blob/main/spotify-sleep.jpeg?raw=true)
