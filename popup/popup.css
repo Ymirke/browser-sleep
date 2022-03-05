@@ -1,0 +1,41 @@
+.sleep-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.sleep-in-timer {
+  text-align: center;
+}
+
+.sleep-option {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border: none;
+  background-color: none;
+  background: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.sleep-option:hover {
+  background-color: #73a5e6;
+  cursor: pointer;
+}
+
+.sleep-option:active {
+  border: 1px solid black;
+}
+
+body {
+  background-color: #344966;
+  color: white;
+  width: 16rem;
+  height: auto;
+  margin-bottom: 2rem;
+}

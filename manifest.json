@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Browser sleep timer",
+  "description": "Simple chrome extension to set a timer to stop audio/video playing in browser",
+  "version": "1.0.0",
+  "icons": {
+    "16": "logo/logo-16.png",
+    "48": "logo/logo-48.png",
+    "128": "logo/logo-128.png"
+  },
+  "options_page": "settings/settings.html",
+  "action": {
+    "default_title": "Sleep timer",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "foreground.js"
+      ],
+      "matches": [
+        "https://youtube.com/*"
+      ]
+    }
+  ]
+}
